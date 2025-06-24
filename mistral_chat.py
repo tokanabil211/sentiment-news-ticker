@@ -3,7 +3,7 @@ import streamlit as st
 import requests
 import os
 
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY") or "zN6tsCIZILQxFgsQxYlGqIc0HTY44Rg2"
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY") or ""
 
 def get_prediction_and_explanation(ticker):
     try:
